@@ -5,7 +5,7 @@ from explanation import get_guitar_explanation
 def generate_question():
     """Generate a random music theory question."""
     keys = ["A", "B", "C", "D", "E", "F", "G"]
-    major_minor = ["调", "小调"]  # Major, Minor
+    major_minor = ["大调", "小调"]  # Major, Minor
     scale_degrees = list(range(1, 8))  # 1-7
     
     random_key = random.choice(keys)
